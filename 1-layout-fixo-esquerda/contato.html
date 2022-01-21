@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Credisushi | Contato</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <a href="#"><img src="" /></a>
+        <h2>Credisushi</h2>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <nav class="side-nav">
+        <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./sushi.html">Sushi</a></li>
+          <li><a href="./sushi-premium.html">Sushi Premium</a></li>
+          <li><a href="./quem-somos.html">Quem somos</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="contato">
+        <form class="form-contato">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            class="input-padrao"
+            placeholder="Digite seu nome"
+          />
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input-padrao"
+            placeholder="seuemail@dominio.com"
+          />
+          <label for="telefone">Telefone:</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            class="input-padrao"
+            placeholder="(xx) xxxxx-xxxx"
+          />
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="30"
+            rows="10"
+            class="input-padrao"
+            placeholder="Deixa uma mensagem"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
