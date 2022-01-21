@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  max-width: 940px;
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  max-width: 690px;
+  height: 400px;
+}
+
+.side-nav {
+  width: 250px;
+}
+
+.side-nav ul li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.side-nav ul li a {
+  display: block;
+  color: #7c8a97;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.side-nav ul li.active a {
+  background-color: transparent;
+  color: #f64d00;
+  text-decoration: underline 3px;
+}
+
+.side-nav ul li a:hover {
+  color: #f64d00;
+  text-decoration: underline 3px;
+  webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+form label {
+  display: block;
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+form .input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.btn {
+  width: 300px;
+  padding: 15px 0;
+  color: #f64d00;
+  background: #fff;
+  border-color: #f64d00;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn:hover{
+  background: #f64d00;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 1s all ease;
+  cursor: pointer;
+}
