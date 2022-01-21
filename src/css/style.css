@@ -1,14 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
-body {
-  max-width: 940px;
-  font-family: "Lato", sans-serif;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  max-width: 940px;
+  font-family: "Lato", sans-serif;
+  background: #faf7f7;
+}
+
+.page-header {
+  /* border-bottom: 10px #45CB85 solid; */
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.page-header h2 {
+  text-transform: uppercase;
 }
 
 ul {
@@ -19,15 +31,15 @@ ul {
 
 .main-container {
   display: flex;
-  max-width: 690px;
-  height: 400px;
 }
 
 .side-nav {
-  width: 250px;
+  max-width: 250px;
+  background: #faf7f7;
 }
 
 .side-nav ul li {
+  width: 200px;
   padding: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -55,9 +67,24 @@ ul {
   transition: 0.2s;
 }
 
+section.contact {
+  margin: auto;
+}
+
+section.contact h2 {
+  display: block;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-container .contact-wrapper {
+  display: flex;
+}
+
 form label {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   margin: 0 0 10px;
 }
 
@@ -65,11 +92,11 @@ form .input-padrao {
   display: block;
   margin: 0 0 20px;
   padding: 5px 10px;
-  width: 300px;
+  width: 100%;
 }
 
 .btn {
-  width: 300px;
+  width: 400px;
   padding: 15px 0;
   color: #f64d00;
   background: #fff;
@@ -78,7 +105,7 @@ form .input-padrao {
   font-weight: 400;
 }
 
-.btn:hover{
+.btn:hover {
   background: #f64d00;
   color: #fff;
   text-transform: uppercase;
