@@ -14,8 +14,7 @@ body {
 }
 
 .page-header {
-  padding: 10px;
-  background-color: black;
+  background-color: #070707;
 }
 
 .header-logo a img {
@@ -26,15 +25,15 @@ body {
 .main-container {
   display: flex;
   background: #f1f0ea;
+  min-height: 80vh;
 }
 
 .side-nav {
-  max-width: 250px;
+  width: 250px;
   background: #c0beb4;
 }
 
 .side-nav ul li {
-  width: 200px;
   padding: 15px;
   border-bottom: 1px solid #00000009;
 }
@@ -58,20 +57,19 @@ body {
   transition: 0.2s;
 }
 
-/* HOME */
-.opcoes-sushi {
-  padding: 15px;
+/* HOME, SUSHI, SUSHI PREMIUM */
+.opcoes-sushi, .contact, .sobre {
+  max-width: 690px;
 }
 
 .opcoes-sushi .opcoes-card {
   display: flex;
-  margin: auto;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.opcoes-sushi .opcoes-title p {
-  width: 100%;
+.opcoes-sushi .opcoes-title p, .sobre .sobre-title p {
   text-align: center;
   text-transform: uppercase;
   margin: 20px 0 5px 0;
@@ -81,7 +79,7 @@ body {
   color: #7a848e;
 }
 
-.opcoes-sushi .opcoes-title {
+.opcoes-sushi .opcoes-title, .sobre .sobre-title  {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
@@ -222,4 +220,25 @@ section.contact h2 {
   text-transform: uppercase;
   transition: 1s all;
   cursor: pointer;
+}
+
+/* QUEM SOMOS */
+.historia {
+  margin: 40px;
+}
+
+.historia p {
+  color: #212121;
+  text-align: justify;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.historia img {
+  display: flex;
+  margin: 30px auto;
+  width: 100%;
+  border-radius: 10px;
 }
