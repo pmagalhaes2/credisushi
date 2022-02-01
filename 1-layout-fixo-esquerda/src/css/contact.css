@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url(main.css);
+
+.contact {
+  max-width: 690px;
+}
+
+section.contact {
+  margin: auto;
+}
+
+section.contact h2 {
+  color: #212121;
+  display: block;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-wrapper {
+  display: flex;
+}
+
+.form-contato label {
+  color: #212121;
+  display: block;
+  font-size: 17px;
+  margin: 0 0 10px;
+  width: 400px;
+}
+
+.form-contato .input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.form-contato input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px 0;
+  display: block;
+  color: #52aa5e;
+  border-color: #52aa5e;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background: #52aa5e;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 1s all;
+  cursor: pointer;
+}

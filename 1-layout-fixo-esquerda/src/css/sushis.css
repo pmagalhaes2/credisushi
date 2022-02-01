@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url(main.css);
+
+.opcoes-sushi {
+  max-width: 690px;
+}
+
+.opcoes-sushi .opcoes-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.opcoes-sushi .opcoes-title p {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  color: #7a848e;
+}
+
+.opcoes-sushi .opcoes-title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  letter-spacing: 0.14em;
+  color: #f64d00;
+}
+
+.opcoes-sushi .card {
+  width: 180px;
+  height: 320px;
+  background-color: #f1f0ea;
+  border-radius: 24px 0px;
+  margin: 25px;
+  position: relative;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.opcoes-sushi .card-content h1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 0.7;
+  color: #212121;
+}
+
+.opcoes-sushi .card-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px 0 0 0;
+  object-fit: cover;
+  background: #070707;
+}
+
+.opcoes-sushi .card-content {
+  padding: 10px;
+}
+
+.opcoes-sushi .card-content ul {
+  flex-direction: column;
+  display: flex;
+  padding: 10px 0;
+}
+
+.opcoes-sushi .card-content ul li {
+  font-size: 12px;
+  color: #212121;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.opcoes-sushi .card-content ul li:last-child {
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.opcoes-sushi .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background: #fc7821;
+  padding: 5px 10px;
+  line-height: 0.5;
+}
+
+.opcoes-sushi .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #52aa5e;
+  border-radius: 0px 8px 8px 0px;
+  padding: 5px 10px;
+}
+
+.opcoes-sushi .card .card-tag p {
+  margin: 0;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+}

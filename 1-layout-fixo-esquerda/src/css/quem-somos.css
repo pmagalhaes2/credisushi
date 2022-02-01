@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url(main.css);
+
+.sobre {
+  max-width: 690px;
+}
+
+.sobre .sobre-title p {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  color: #7a848e;
+}
+
+.sobre .sobre-title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  letter-spacing: 0.14em;
+  color: #f64d00;
+}
+
+.historia {
+  margin: 40px;
+}
+
+.historia p {
+  color: #212121;
+  text-align: justify;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.historia img {
+  display: flex;
+  margin: 30px auto;
+  width: 100%;
+  border-radius: 15px 0;
+}
